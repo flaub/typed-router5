@@ -1,5 +1,8 @@
 // Type definitions for react-router5 v2.0.0
 
+/// <reference path="../react/react.d.ts" />
+/// <reference path="../router5/router5.d.ts" />
+
 declare module "react-router5/modules/BaseLink" {
 	import Router5 from 'router5';
 	import { ComponentClass, Props } from 'react';
