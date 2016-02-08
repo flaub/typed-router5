@@ -1,6 +1,6 @@
-# Typed Router5
+# Typescript Definitions
 
-Typescript definitions for [`router5`](https://router5.github.io/).
+Typescript definitions for various packages.
 
 ## License
 

@@ -1,0 +1,8 @@
+{
+	"name": "router5-listeners",
+	"main": "router5-listeners.d.ts",
+	"author": "Frank Laub <https://github.com/flaub>",
+	"description": "Typescript definitions for router5-listeners",
+	"dependencies": {
+	}
+}
