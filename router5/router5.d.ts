@@ -51,7 +51,7 @@ declare module 'router5' {
         buildState(route: string, params: Object): string;
         buildUrl(route: string, params: Object): string;
         canActivate(name: string, canActivate: Function): Router5;
-        canDeactivate(name: string, canDeactivate: boolean): any;
+        canDeactivate(name: string, canDeactivate: Function | boolean): any;
         cancel(): void;
         getAdditionalArgs(): Array<any>;
         getState(): Object;
