@@ -4,7 +4,7 @@
 	"author": "Frank Laub <https://github.com/flaub>",
 	"description": "Typescript definitions for redux-await",
 	"ambient": true,
-	"dependencies": {
-		"redux": "github:andrew-w-ross/typings-redux"
+	"ambientDependencies": {
+		"redux": "github:DefinitelyTyped/DefinitelyTyped/redux/redux.d.ts#a820bbdead70913f0c750802b367ed54cb99b442"
 	}
 }
