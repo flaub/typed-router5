@@ -44,7 +44,7 @@ declare module 'router5' {
         (name?: any, path?: any, childRoutes?: any, cb?: Function): RouteNode;
     }
 
-    interface Router5 {
+    export interface Router5 {
         add(routes: any): Router5;
         addNode(name: string, path: string, canActivate?: Function): Router5;
         areStatesDescendants(parentState: any, childState: any): boolean;
@@ -83,7 +83,6 @@ declare module 'router5' {
 
     export default Router5;
     export {
-        Router5,
         errCodes,
         loggerPlugin,
         RouteNode,
