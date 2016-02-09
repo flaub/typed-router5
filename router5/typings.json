@@ -1,11 +1,7 @@
 {
-	"name": "react-router5",
-	"main": "react-router5.d.ts",
+	"name": "router5",
+	"main": "router5.d.ts",
 	"author": "Frank Laub <https://github.com/flaub>",
-	"description": "Typescript definitions for react-router5",
-	"ambient": true,
-	"ambientDependencies": {
-		"router5": "github:flaub/typescript-definitions/router5/router5.d.ts",
-		"react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#83b88a031cc8f2006fd361bf0a0b548c3bcc8259"
-	}
+	"description": "Typescript definitions for router5",
+	"ambient": true
 }
