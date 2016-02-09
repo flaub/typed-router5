@@ -6,6 +6,6 @@
 	"ambient": true,
 	"ambientDependencies": {
 		"redux": "github:DefinitelyTyped/DefinitelyTyped/redux/redux.d.ts#a820bbdead70913f0c750802b367ed54cb99b442",
-		"router5": "github:DefinitelyTyped/DefinitelyTyped/router5/router5.d.ts#3e7024258a8a47e7c08ad973bd61e07a3a655514"
+		"router5": "github:flaub/typescript-definitions/router5/router5.d.ts"
 	}
 }

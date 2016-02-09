@@ -5,6 +5,6 @@
 	"description": "Typescript definitions for router5-history",
 	"ambient": true,
 	"ambientDependencies": {
-		"router5": "github:DefinitelyTyped/DefinitelyTyped/router5/router5.d.ts#3e7024258a8a47e7c08ad973bd61e07a3a655514"
+		"router5": "github:flaub/typescript-definitions/router5/router5.d.ts"
 	}
 }
