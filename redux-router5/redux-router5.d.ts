@@ -1,7 +1,7 @@
 // Type definitions for redux-router5 v2.0.0
 
 declare module "redux-router5/modules/router5Middleware" {
-	import Router5 from 'router5';
+	import { Router5 } from 'router5';
 	import { Middleware } from 'redux';
 	function router5ReduxMiddleware(router: Router5): Middleware;
 	export default router5ReduxMiddleware;

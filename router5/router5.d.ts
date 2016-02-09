@@ -83,6 +83,7 @@ declare module 'router5' {
 
     export default Router5;
     export {
+        Router5,
         errCodes,
         loggerPlugin,
         RouteNode,

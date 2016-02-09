@@ -4,7 +4,7 @@
 /// <reference path="../router5/router5.d.ts" />
 
 declare module "react-router5/modules/BaseLink" {
-	import Router5 from 'router5';
+	import { Router5 } from 'router5';
 	import { ComponentClass, Props } from 'react';
 
 	interface RouteOptions {
@@ -33,7 +33,7 @@ declare module "react-router5/modules/routeNode" {
 }
 
 declare module "react-router5/modules/RouterProvider" {
-	import Router5 from 'router5';
+	import { Router5 } from 'router5';
 	import { ComponentClass, Props, ReactNode } from 'react';
 	
 	interface RouterProviderProps extends Props<RouterProvider> {
@@ -52,7 +52,7 @@ declare module "react-router5/modules/withRoute" {
 }
 
 declare module "react-router5" {
-	import Router5 from 'router5';
+	import { Router5 } from 'router5';
 	import { ComponentClass, Props } from 'react';
 	import BaseLink from 'react-router5/modules/BaseLink';
 	import routeNode from 'react-router5/modules/routeNode';
