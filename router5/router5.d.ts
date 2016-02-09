@@ -1,5 +1,3 @@
-// Compiled using typings@0.6.6
-// Source: https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/3e7024258a8a47e7c08ad973bd61e07a3a655514/router5/router5.d.ts
 // Type definitions for router5
 // Project: https://github.com/router5/router5
 // Definitions by: Matthew Dahl <https://github.com/sandersky>
