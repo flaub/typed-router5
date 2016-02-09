@@ -3,6 +3,8 @@
 	"main": "redux-await.d.ts",
 	"author": "Frank Laub <https://github.com/flaub>",
 	"description": "Typescript definitions for redux-await",
+	"ambient": true,
 	"dependencies": {
+		"redux": "github:andrew-w-ross/typings-redux"
 	}
 }
