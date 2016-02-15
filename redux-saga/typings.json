@@ -1,0 +1,10 @@
+{
+	"name": "redux-saga",
+	"main": "redux-saga.d.ts",
+	"author": "Frank Laub <https://github.com/flaub>",
+	"description": "Typescript definitions for redux-saga",
+	"ambient": true,
+	"ambientDependencies": {
+		"redux": "github:DefinitelyTyped/DefinitelyTyped/redux/redux.d.ts#a820bbdead70913f0c750802b367ed54cb99b442"
+	}
+}
