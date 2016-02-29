@@ -1,0 +1,10 @@
+{
+	"name": "react-fa",
+	"main": "react-fa.d.ts",
+	"author": "Frank Laub <https://github.com/flaub>",
+	"description": "Typescript definitions for react-fa",
+	"ambient": true,
+	"ambientDependencies": {
+		"react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#83b88a031cc8f2006fd361bf0a0b548c3bcc8259"
+	}
+}
