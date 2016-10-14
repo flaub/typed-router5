@@ -3,7 +3,7 @@
 // Definitions by: Matthew Dahl <https://github.com/sandersky>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-declare module 'router5' {
+declare namespace Router5 {
     interface constants {
         ROUTER_NOT_STARTED: string;
         ROUTER_ALREADY_STARTED: string;
@@ -79,11 +79,13 @@ declare module 'router5' {
     var Router5: Router5Factory;
     var transitionPath: (toState: any, fromState: any) => any;
 
-    export default Router5;
-    export {
-        errCodes,
-        loggerPlugin,
-        RouteNode,
-        transitionPath
-    };
+    // export default Router5;
+    // export {
+    //     errCodes,
+    //     loggerPlugin,
+    //     RouteNode,
+    //     transitionPath
+    // };
 }
+
+export = Router5;
