@@ -2,6 +2,5 @@
 	"name": "router5",
 	"main": "router5.d.ts",
 	"author": "Frank Laub <https://github.com/flaub>",
-	"description": "Typescript definitions for router5",
-	"ambient": true
+	"description": "Typescript definitions for router5"
 }
