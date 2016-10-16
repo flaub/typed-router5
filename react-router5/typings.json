@@ -3,9 +3,8 @@
 	"main": "react-router5.d.ts",
 	"author": "Frank Laub <https://github.com/flaub>",
 	"description": "Typescript definitions for react-router5",
-	"ambient": true,
-	"ambientDependencies": {
-		"router5": "github:flaub/typescript-definitions/router5/router5.d.ts",
-		"react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#83b88a031cc8f2006fd361bf0a0b548c3bcc8259"
+	"dependencies": {
+		"react": "registry:npm/react#15.0.1+20160601175240",
+		"router5": "github:flaub/typescript-definitions/router5"
 	}
 }

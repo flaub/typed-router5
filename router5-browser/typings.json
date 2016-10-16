@@ -1,0 +1,7 @@
+{
+	"name": "router5-browser",
+	"main": "index.d.ts",
+	"author": "Frank Laub <https://github.com/flaub>",
+	"description": "Typescript definitions for router5",
+	"global": true
+}

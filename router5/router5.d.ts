@@ -1,8 +1,3 @@
-// Type definitions for router5
-// Project: https://github.com/router5/router5
-// Definitions by: Matthew Dahl <https://github.com/sandersky>
-// Definitions: https://github.com/borisyankov/DefinitelyTyped
-
 declare namespace Router5 {
     interface constants {
         ROUTER_NOT_STARTED: string;
@@ -73,11 +68,11 @@ declare namespace Router5 {
         (routes?: any, opts?: Object): Router5;
     }
 
-    var errCodes: constants;
-    var loggerPlugin: () => Function;
-    var RouteNode: RouteNodeFactory;
-    var Router5: Router5Factory;
-    var transitionPath: (toState: any, fromState: any) => any;
+    // var errCodes: constants;
+    // var loggerPlugin: () => Function;
+    // var RouteNode: RouteNodeFactory;
+    // var Router5: Router5Factory;
+    // var transitionPath: (toState: any, fromState: any) => any;
 
     // export default Router5;
     // export {
